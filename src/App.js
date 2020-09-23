@@ -1,13 +1,9 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Page from './containers/Page';
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="contained" color="primary">
-        Hello World
-      </Button>
-    </div>
+      <Page />
   );
 }
 
